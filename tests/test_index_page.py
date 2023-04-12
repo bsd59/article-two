@@ -5,7 +5,7 @@ import pages
 
 class TestFooter:
 
-    @pytest.mark.case_id(1)
+    @pytest.marl.case_id(1)
     def test_user_should_be_able_to_open_popup_select_subscription_plan(self, page):
         # assert 0
         pages.index_page.open_index_page(page)
