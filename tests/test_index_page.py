@@ -1,11 +1,10 @@
 # import time
-import pytest as pytest
-
+import pytest
 import pages
 
 class TestFooter:
 
-    @pytest.marl.case_id(1)
+    @pytest.mark.case_id(1)
     def test_user_should_be_able_to_open_popup_select_subscription_plan(self, page):
         # assert 0
         pages.index_page.open_index_page(page)
